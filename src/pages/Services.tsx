@@ -18,6 +18,7 @@ import noseLoadingImage from '@/assets/nose-loading-aircraft.jpeg';
 import landTransportImage from '@/assets/land-transportation.png';
 import heavyCargoImage from '@/assets/heavy-cargo.png';
 import projectCargoImage from '@/assets/project-cargo.png';
+import doorToDoorImage from '@/assets/door-to-door.png';
 
 const services = [
   {
@@ -60,7 +61,7 @@ const services = [
     title: 'Door to Door Service',
     description: 'End-to-end logistics from pickup to final delivery. Real-time tracking and multi-modal transport ensure cargo arrives safely, on time, anywhere.',
     features: ['Complete visibility', 'Multi-modal transport', 'On-time guarantee', 'Insurance coverage'],
-    image: 'https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=600&q=80',
+    image: doorToDoorImage,
   },
   {
     icon: Ship,
