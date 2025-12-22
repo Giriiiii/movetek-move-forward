@@ -67,6 +67,7 @@ export default {
       fontFamily: {
         heading: ["Montserrat", "sans-serif"],
         body: ["Open Sans", "sans-serif"],
+        logo: ["Libre Baskerville", "serif"],
       },
       borderRadius: {
         lg: "var(--radius)",

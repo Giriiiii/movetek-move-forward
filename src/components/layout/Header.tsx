@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Phone, Mail, Anchor } from 'lucide-react';
+import { Menu, X, Phone, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
+import logoImage from '@/assets/movetek-logo.png';
 
 const navLinks = [
   { name: 'Home', path: '/' },
@@ -63,16 +64,15 @@ const Header = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3 group">
               <div className="relative">
-                <div className="w-12 h-12 bg-ocean rounded-xl flex items-center justify-center group-hover:shadow-glow transition-all duration-300">
-                  <Anchor className="w-7 h-7 text-primary-foreground" />
-                </div>
+                <img 
+                  src={logoImage} 
+                  alt="Movetek Logo" 
+                  className="w-12 h-12 object-contain group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <div>
-                <span className="font-heading font-bold text-2xl text-navy tracking-tight">
+                <span className="font-logo font-bold text-2xl text-navy tracking-tight">
                   MOVETEK
-                </span>
-                <span className="block text-xs text-steel font-medium tracking-wider uppercase">
-                
                 </span>
               </div>
             </Link>
