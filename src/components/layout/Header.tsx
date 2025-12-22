@@ -62,19 +62,12 @@ const Header = () => {
         <div className="container-custom">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-3 group">
-              <div className="relative">
-                <img 
-                  src={logoImage} 
-                  alt="Movetek Logo" 
-                  className="w-12 h-12 object-contain group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div>
-                <span className="font-logo font-bold text-2xl text-navy tracking-tight">
-                  MOVETEK
-                </span>
-              </div>
+            <Link to="/" className="flex items-center group">
+              <img 
+                src={logoImage} 
+                alt="Movetek Logo" 
+                className="h-14 sm:h-16 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+              />
             </Link>
 
             {/* Desktop Navigation */}
