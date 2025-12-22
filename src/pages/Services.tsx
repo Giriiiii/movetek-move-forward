@@ -14,6 +14,7 @@ import {
   ArrowRight,
   CheckCircle
 } from 'lucide-react';
+import noseLoadingImage from '@/assets/nose-loading-aircraft.jpeg';
 
 const services = [
   {
@@ -185,7 +186,7 @@ const Services = () => {
             {/* Nose Loading Aircraft */}
             <div className="group relative overflow-hidden rounded-2xl shadow-medium">
               <img
-                src="https://images.unsplash.com/photo-1474302770737-173ee21bab63?auto=format&fit=crop&w=600&q=80"
+                src={noseLoadingImage}
                 alt="Nose Loading Aircraft"
                 className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
               />
