@@ -36,13 +36,13 @@ const HeroSection = () => {
             </div>
             
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold leading-tight animate-fade-up animation-delay-100">
-              Your Trusted Partner for{' '}
-              <span className="text-ocean-light">Reliable</span> and{' '}
-              <span className="text-ocean-light">Tailored</span> Freight Solutions
+            Powering Your Supply Chain {' '}
+              <span className="text-ocean-light">Supply</span> Chain{' '}
+              <span className="text-ocean-light">Forward</span> 
             </h1>
             
             <p className="text-base sm:text-lg md:text-xl text-primary-foreground/80 max-w-3xl mx-auto leading-relaxed animate-fade-up animation-delay-200">
-              MoveTek Shipping is a leading shipping and forwarding company based in the United Arab Emirates (UAE), specializing in seamless logistics solutions for both regional and international markets. With a robust network of strategic partners, state-of-the-art technology, and a highly experienced team, we are dedicated to providing fast, reliable, and cost-effective shipping services for businesses of all sizes.
+              MoveTek Shipping and logistics FZE is a leading shipping and forwarding company based in the United Arab Emirates (UAE), specializing in seamless logistics solutions for both regional and international markets. With a robust network of strategic partners, state-of-the-art technology, and a highly experienced team, we are dedicated to providing fast, reliable, and cost-effective shipping services for businesses of all sizes.
             </p>
 
             <div className="flex flex-wrap justify-center gap-4 animate-fade-up animation-delay-300">
