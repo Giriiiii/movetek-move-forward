@@ -52,7 +52,7 @@ const About = () => {
               Your Partner in Global Logistics Excellence
             </h1>
             <p className="text-xl text-primary-foreground/80 animate-fade-up animation-delay-200">
-              With over 15 years of experience, Movetek has established itself as a trusted leader in international freight forwarding and logistics solutions.
+              With over 15 years of experience, MoveTek has established itself as a trusted leader in international freight forwarding and logistics solutions.
             </p>
           </div>
         </div>
@@ -71,7 +71,7 @@ const About = () => {
               </h2>
               <div className="space-y-6 text-muted-foreground leading-relaxed">
                 <p>
-                  Movetek is a well-experienced international freight forwarding company providing service-oriented and cost-effective solutions. Our services are planned and tailored to meet customer-specific requirements. We are reputed for reliability, quality, and consistency in our services.
+                  MoveTek is a well-experienced international freight forwarding company providing service-oriented and cost-effective solutions. Our services are planned and tailored to meet customer-specific requirements. We are reputed for reliability, quality, and consistency in our services.
                 </p>
                 <p>
                   Managed by a compact, dynamic, vibrant, and accomplished team, we always live up to the ever-increasing demand for quality and superior service. Our professionals always ensure follow-up on each and every movement, guaranteeing peace of mind for our clients.
@@ -84,7 +84,7 @@ const About = () => {
             <div className="relative mt-8 md:mt-0">
               <img
                 src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80"
-                alt="Movetek logistics operations"
+                alt="MoveTek logistics operations"
                 className="rounded-2xl shadow-strong w-full"
               />
               <div className="absolute -bottom-4 left-4 sm:-bottom-8 sm:-left-8 bg-ocean text-primary-foreground p-4 sm:p-6 rounded-2xl shadow-strong">
@@ -171,7 +171,7 @@ const About = () => {
             Ready to Partner With Us?
           </h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Join hundreds of satisfied clients who trust Movetek for their global logistics needs.
+            Join hundreds of satisfied clients who trust MoveTek for their global logistics needs.
           </p>
           <Link to="/contact">
             <Button variant="ocean" size="xl" className="group">

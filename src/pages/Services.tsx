@@ -15,6 +15,9 @@ import {
   CheckCircle
 } from 'lucide-react';
 import noseLoadingImage from '@/assets/nose-loading-aircraft.jpeg';
+import landTransportImage from '@/assets/land-transportation.png';
+import heavyCargoImage from '@/assets/heavy-cargo.png';
+import projectCargoImage from '@/assets/project-cargo.png';
 
 const services = [
   {
@@ -29,7 +32,7 @@ const services = [
     title: 'Project Cargo Movements',
     description: 'Specialized handling of oversized, heavy, or complex shipments for industrial projects. Tailored solutions include engineering support, route planning, and regulatory compliance.',
     features: ['Door to door movement', 'In gauge, out of gauge cargo', 'Project management team', 'Heavy lift & break bulk cargo'],
-    image: 'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=600&q=80',
+    image: projectCargoImage,
   },
   {
     icon: Plane,
@@ -71,7 +74,7 @@ const services = [
     title: 'Land Transport',
     description: 'Comprehensive road logistics network with temperature-controlled options across the GCC countries with very economical and fast services.',
     features: ['Full Truckload (FTL)', 'Less Than Truckload (LTL)', 'GPS tracking', 'GCC coverage'],
-    image: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=600&q=80',
+    image: landTransportImage,
   },
   {
     icon: Warehouse,
@@ -200,7 +203,7 @@ const Services = () => {
             {/* Heavy Cargo Transportation */}
             <div className="group relative overflow-hidden rounded-2xl shadow-medium">
               <img
-                src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80"
+                src={heavyCargoImage}
                 alt="Heavy Cargo Transportation"
                 className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -214,7 +217,7 @@ const Services = () => {
             {/* Land Transportation */}
             <div className="group relative overflow-hidden rounded-2xl shadow-medium">
               <img
-                src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=600&q=80"
+                src={landTransportImage}
                 alt="Land Transportation"
                 className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -228,7 +231,7 @@ const Services = () => {
             {/* Project Cargo */}
             <div className="group relative overflow-hidden rounded-2xl shadow-medium">
               <img
-                src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=600&q=80"
+                src={projectCargoImage}
                 alt="Project Cargo"
                 className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
               />

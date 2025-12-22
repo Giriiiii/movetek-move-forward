@@ -42,7 +42,7 @@ const HeroSection = () => {
             </h1>
             
             <p className="text-base sm:text-lg md:text-xl text-primary-foreground/80 max-w-3xl mx-auto leading-relaxed animate-fade-up animation-delay-200">
-              Movetek Shipping is a leading shipping and forwarding company based in the United Arab Emirates (UAE), specializing in seamless logistics solutions for both regional and international markets. With a robust network of strategic partners, state-of-the-art technology, and a highly experienced team, we are dedicated to providing fast, reliable, and cost-effective shipping services for businesses of all sizes.
+              MoveTek Shipping is a leading shipping and forwarding company based in the United Arab Emirates (UAE), specializing in seamless logistics solutions for both regional and international markets. With a robust network of strategic partners, state-of-the-art technology, and a highly experienced team, we are dedicated to providing fast, reliable, and cost-effective shipping services for businesses of all sizes.
             </p>
 
             <div className="flex flex-wrap justify-center gap-4 animate-fade-up animation-delay-300">
