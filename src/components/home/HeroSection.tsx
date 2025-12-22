@@ -42,22 +42,11 @@ const HeroSection = () => {
             </h1>
             
             <p className="text-lg md:text-xl text-primary-foreground/80 max-w-xl leading-relaxed animate-fade-up animation-delay-200">
-              Movetek is a reliable international freight forwarding company offering cost-effective, customer-tailored solutions. Known for quality and consistency, our dynamic team ensures timely, superior service with close follow-up on every shipment.
+            Movetek Shipping is a leading shipping and forwarding company based in the United Arab Emirates (UAE), specializing in seamless logistics solutions for both regional and international markets. With a robust network of strategic partners, state-of-the-art technology, and a highly experienced team, we are dedicated to providing fast, reliable, and cost-effective shipping services for businesses of all sizes.
             </p>
 
             <div className="flex flex-wrap gap-4 animate-fade-up animation-delay-300">
-              <Link to="/contact">
-                <Button variant="hero" size="xl" className="group">
-                  Get Started
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </Link>
-              <Link to="/services">
-                <Button variant="heroOutline" size="xl" className="group">
-                  <Play className="w-5 h-5" />
-                  Our Services
-                </Button>
-              </Link>
+
             </div>
           </div>
 

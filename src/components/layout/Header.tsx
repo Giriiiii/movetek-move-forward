@@ -34,16 +34,16 @@ const Header = () => {
       <div className="hidden lg:block bg-navy text-primary-foreground py-2">
         <div className="container-custom flex justify-between items-center text-sm">
           <div className="flex items-center gap-6">
-            <a href="tel:+971582348995" className="flex items-center gap-2 hover:text-ocean-light transition-colors">
+            <a href="tel:+971523258175" className="flex items-center gap-2 hover:text-ocean-light transition-colors">
               <Phone className="w-4 h-4" />
-              +971 58 234 8995
+              +971 52 3258 175
             </a>
-            <a href="mailto:info@movetek.com" className="flex items-center gap-2 hover:text-ocean-light transition-colors">
+            <a href="mailto:sales@movetekshipping.com" className="flex items-center gap-2 hover:text-ocean-light transition-colors">
               <Mail className="w-4 h-4" />
-              info@movetek.com
+              sales@movetekshipping.com
             </a>
           </div>
-          <div className="text-muted-foreground/80">
+          <div className="text-white">
             Your Trusted Partner in Global Logistics
           </div>
         </div>
@@ -72,7 +72,7 @@ const Header = () => {
                   MOVETEK
                 </span>
                 <span className="block text-xs text-steel font-medium tracking-wider uppercase">
-                  Global Logistics
+                  
                 </span>
               </div>
             </Link>

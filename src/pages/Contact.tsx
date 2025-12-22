@@ -21,19 +21,19 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Phone',
-    content: '+971 58 234 8995',
-    link: 'tel:+971582348995',
+    content: '+971 52 3258 175',
+    link: 'tel:+971523258175',
   },
   {
     icon: Mail,
     title: 'Email',
-    content: 'info@movetek.com',
-    link: 'mailto:info@movetek.com',
+    content: 'sales@movetekshipping.com',
+    link: 'mailto:sales@movetekshipping.com',
   },
   {
     icon: MapPin,
     title: 'Address',
-    content: 'Business Bay, Dubai, UAE',
+    content: 'Business Centre, SP City Free Zone, Sharjah, UAE',
     link: '#',
   },
   {
@@ -170,7 +170,7 @@ const Contact = () => {
 
               {/* WhatsApp Button */}
               <a
-                href="https://api.whatsapp.com/send?phone=971582348995"
+                href="https://api.whatsapp.com/send?phone=971523258175"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-8 flex items-center justify-center gap-3 bg-green-500 text-primary-foreground py-4 px-6 rounded-xl font-semibold hover:bg-green-600 transition-colors"
@@ -201,7 +201,7 @@ const Contact = () => {
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
-                        placeholder="John Doe"
+                        placeholder="Name"
                         className={errors.name ? 'border-destructive' : ''}
                       />
                       {errors.name && (
@@ -218,7 +218,7 @@ const Contact = () => {
                         type="email"
                         value={formData.email}
                         onChange={handleChange}
-                        placeholder="john@example.com"
+                        placeholder="xyz@example.com"
                         className={errors.email ? 'border-destructive' : ''}
                       />
                       {errors.email && (
@@ -238,7 +238,7 @@ const Contact = () => {
                         type="tel"
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="+971 50 123 4567"
+                        placeholder="+971 52 3258 175"
                         className={errors.phone ? 'border-destructive' : ''}
                       />
                       {errors.phone && (
@@ -304,20 +304,7 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="h-[400px] relative">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.178509736789!2d55.26427997538431!3d25.185610677715163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69cb99ad0f77%3A0x4f01460ce4d82d5f!2sBusiness%20Bay!5e0!3m2!1sen!2sae!4v1703244000000!5m2!1sen!2sae"
-          width="100%"
-          height="100%"
-          style={{ border: 0 }}
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          title="Movetek Office Location"
-        />
-        <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-background/20 to-transparent" />
-      </section>
+      
     </Layout>
   );
 };

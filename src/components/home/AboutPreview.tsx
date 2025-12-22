@@ -27,22 +27,7 @@ const AboutPreview = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-navy/60 to-transparent" />
               
               {/* Stats overlay */}
-              <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-6 bg-primary-foreground/95 backdrop-blur-sm rounded-xl p-4 sm:p-6">
-                <div className="grid grid-cols-3 gap-2 sm:gap-4 text-center">
-                  <div>
-                    <div className="font-heading font-bold text-lg sm:text-2xl text-ocean">150+</div>
-                    <div className="text-xs sm:text-sm text-muted-foreground">Countries</div>
-                  </div>
-                  <div>
-                    <div className="font-heading font-bold text-lg sm:text-2xl text-ocean">2M+</div>
-                    <div className="text-xs sm:text-sm text-muted-foreground">Shipments</div>
-                  </div>
-                  <div>
-                    <div className="font-heading font-bold text-lg sm:text-2xl text-ocean">$500M</div>
-                    <div className="text-xs sm:text-sm text-muted-foreground">Cargo Insured</div>
-                  </div>
-                </div>
-              </div>
+            
             </div>
             
             {/* Decorative element */}
@@ -58,8 +43,7 @@ const AboutPreview = () => {
               About Movetek
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Movetek is a well-experienced international freight forwarding company providing service-oriented and cost-effective solutions. Our services are planned and tailored to meet customer-specific requirements. We are reputed for reliability, quality, and consistency in our services.
-            </p>
+            Movetek Shipping is a leading shipping and forwarding company based in the United Arab Emirates (UAE), specializing in seamless logistics solutions for both regional and international markets. With a robust network of strategic partners, state-of-the-art technology, and a highly experienced team, we are dedicated to providing fast, reliable, and cost-effective shipping services for businesses of all sizes.            </p>
             <p className="text-muted-foreground mb-8 leading-relaxed">
               Managed by a compact, dynamic, vibrant, and accomplished team, we always live up to the ever-increasing demand for quality and superior service. We strive to offer the best reliable and time-oriented service, and our professionals ensure follow-up on each and every movement.
             </p>

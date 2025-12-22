@@ -27,20 +27,7 @@ const Footer = () => {
             <p className="text-primary-foreground/80 leading-relaxed">
               Your trusted partner for reliable and tailored freight solutions. We deliver excellence in global logistics with over 15 years of experience.
             </p>
-            <div className="flex gap-3">
-              <a href="#" className="w-10 h-10 rounded-lg bg-primary-foreground/10 hover:bg-ocean flex items-center justify-center transition-colors">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-lg bg-primary-foreground/10 hover:bg-ocean flex items-center justify-center transition-colors">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-lg bg-primary-foreground/10 hover:bg-ocean flex items-center justify-center transition-colors">
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-lg bg-primary-foreground/10 hover:bg-ocean flex items-center justify-center transition-colors">
-                <Instagram className="w-5 h-5" />
-              </a>
-            </div>
+           
           </div>
 
           {/* Quick Links */}
@@ -84,20 +71,21 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-ocean flex-shrink-0 mt-1" />
                 <span className="text-primary-foreground/80">
-                  Business Bay, Dubai<br />
+SP City Free Zone, Sharjah, UAE
+<br />
                   United Arab Emirates
                 </span>
               </li>
               <li>
-                <a href="tel:+971582348995" className="flex items-center gap-3 text-primary-foreground/80 hover:text-ocean-light transition-colors">
+                <a href="tel:+971523258175" className="flex items-center gap-3 text-primary-foreground/80 hover:text-ocean-light transition-colors">
                   <Phone className="w-5 h-5 text-ocean" />
-                  +971 58 234 8995
+                  +971 52 3258 175
                 </a>
               </li>
               <li>
-                <a href="mailto:info@movetek.com" className="flex items-center gap-3 text-primary-foreground/80 hover:text-ocean-light transition-colors">
+                <a href="mailto:sales@movetekshipping.com" className="flex items-center gap-3 text-primary-foreground/80 hover:text-ocean-light transition-colors">
                   <Mail className="w-5 h-5 text-ocean" />
-                  info@movetek.com
+                  sales@movetekshipping.com
                 </a>
               </li>
             </ul>

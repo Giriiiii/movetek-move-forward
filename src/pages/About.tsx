@@ -162,51 +162,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Timeline */}
-      <section className="section-padding bg-navy">
-        <div className="container-custom">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="inline-block px-4 py-1.5 bg-ocean/20 text-ocean-light text-sm font-semibold rounded-full mb-4">
-              Our Journey
-            </span>
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-6">
-              Milestones
-            </h2>
-          </div>
-
-          <div className="relative">
-            {/* Timeline line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-ocean/30 hidden md:block" />
-
-            <div className="space-y-12">
-              {milestones.map((milestone, index) => (
-                <div
-                  key={milestone.year}
-                  className={`flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-8 ${
-                    index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-                  }`}
-                >
-                  <div className={`flex-1 w-full ${index % 2 === 0 ? 'md:text-right' : 'md:text-left'}`}>
-                    <div className="bg-navy-light p-4 sm:p-6 rounded-2xl inline-block w-full md:w-auto">
-                      <div className="font-heading font-bold text-ocean-light text-xl sm:text-2xl mb-2">
-                        {milestone.year}
-                      </div>
-                      <h3 className="font-heading font-bold text-primary-foreground text-lg sm:text-xl mb-2">
-                        {milestone.title}
-                      </h3>
-                      <p className="text-primary-foreground/70 text-sm sm:text-base">
-                        {milestone.description}
-                      </p>
-                    </div>
-                  </div>
-                  <div className="hidden md:flex w-4 h-4 bg-ocean rounded-full relative z-10 flex-shrink-0" />
-                  <div className="flex-1 hidden md:block" />
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       {/* CTA */}
       <section className="section-padding bg-background">

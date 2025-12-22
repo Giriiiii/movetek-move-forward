@@ -29,7 +29,7 @@ const CTABanner = () => {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
-            <a href="tel:+971582348995">
+            <a href="tel:+971523258175">
               <Button variant="heroOutline" size="xl" className="group">
                 <Phone className="w-5 h-5" />
                 Call Us Now

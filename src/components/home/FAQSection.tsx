@@ -8,7 +8,7 @@ import {
 const faqs = [
   {
     question: "How can I place an order for your services?",
-    answer: "Orders can be placed by contacting our customer service team via email at info@movetek.com or by calling +971 58 234 8995. Our team will assist you in arranging the appropriate transportation solution for your cargo.",
+    answer: "Orders can be placed by contacting our customer service team via email at sales@movetekshipping.com or by calling +971 58 234 8995. Our team will assist you in arranging the appropriate transportation solution for your cargo.",
   },
   {
     question: "What payment methods do you accept?",
