@@ -43,7 +43,7 @@ const AboutPreview = () => {
               About MoveTek
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              MoveTek Shipping is a leading shipping and forwarding company based in the United Arab Emirates (UAE), specializing in seamless logistics solutions for both regional and international markets. With a robust network of strategic partners, state-of-the-art technology, and a highly experienced team, we are dedicated to providing fast, reliable, and cost-effective shipping services for businesses of all sizes.
+              MoveTek Shipping & Logistics FZE is a leading shipping and forwarding company based in the United Arab Emirates (UAE), specializing in seamless logistics solutions for both regional and international markets. With a robust network of strategic partners, state-of-the-art technology, and a highly experienced team, we are dedicated to providing fast, reliable, and cost-effective shipping services for businesses of all sizes.
             </p>
             <p className="text-muted-foreground mb-8 leading-relaxed">
               Managed by a compact, dynamic, vibrant, and accomplished team, we always live up to the ever-increasing demand for quality and superior service. We strive to offer the best reliable and time-oriented service, and our professionals ensure follow-up on each and every movement.

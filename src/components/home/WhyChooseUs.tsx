@@ -43,7 +43,7 @@ const WhyChooseUs = () => {
             Why Choose Us
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-foreground mb-6">
-            Why Partner With Movetek?
+            Why Partner With MoveTek?
           </h2>
           <p className="text-lg text-muted-foreground">
             We combine industry expertise, global reach, and personalized service to deliver exceptional logistics solutions that keep your business moving forward.
