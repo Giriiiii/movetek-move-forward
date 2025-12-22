@@ -166,6 +166,109 @@ const Services = () => {
         </div>
       </section>
 
+      {/* Special Operations Section */}
+      <section className="section-padding bg-muted/30">
+        <div className="container-custom">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <span className="inline-block px-4 py-1.5 bg-ocean/10 text-ocean text-sm font-semibold rounded-full mb-4">
+              Specialized Services
+            </span>
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
+              Special Operations
+            </h2>
+            <p className="text-muted-foreground text-lg">
+              From nose-loading aircraft to heavy cargo transportation, we handle the most complex logistics challenges with precision and expertise.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Nose Loading Aircraft */}
+            <div className="group relative overflow-hidden rounded-2xl shadow-medium">
+              <img
+                src="https://images.unsplash.com/photo-1474302770737-173ee21bab63?auto=format&fit=crop&w=600&q=80"
+                alt="Nose Loading Aircraft"
+                className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/40 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <h3 className="text-xl font-heading font-bold text-primary-foreground mb-2">Nose Loading Aircraft</h3>
+                <p className="text-primary-foreground/80 text-sm">Specialized aircraft for oversized cargo loading through the nose section</p>
+              </div>
+            </div>
+
+            {/* Heavy Cargo Transportation */}
+            <div className="group relative overflow-hidden rounded-2xl shadow-medium">
+              <img
+                src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80"
+                alt="Heavy Cargo Transportation"
+                className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/40 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <h3 className="text-xl font-heading font-bold text-primary-foreground mb-2">Heavy Cargo Transportation</h3>
+                <p className="text-primary-foreground/80 text-sm">Specialized handling of oversized and heavy industrial equipment</p>
+              </div>
+            </div>
+
+            {/* Land Transportation */}
+            <div className="group relative overflow-hidden rounded-2xl shadow-medium">
+              <img
+                src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=600&q=80"
+                alt="Land Transportation"
+                className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/40 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <h3 className="text-xl font-heading font-bold text-primary-foreground mb-2">Land Transportation</h3>
+                <p className="text-primary-foreground/80 text-sm">Comprehensive road freight network across GCC and beyond</p>
+              </div>
+            </div>
+
+            {/* Project Cargo */}
+            <div className="group relative overflow-hidden rounded-2xl shadow-medium">
+              <img
+                src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=600&q=80"
+                alt="Project Cargo"
+                className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/40 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <h3 className="text-xl font-heading font-bold text-primary-foreground mb-2">Project Cargo</h3>
+                <p className="text-primary-foreground/80 text-sm">Complex logistics solutions for large-scale industrial projects</p>
+              </div>
+            </div>
+
+            {/* Breakbulk Cargo */}
+            <div className="group relative overflow-hidden rounded-2xl shadow-medium">
+              <img
+                src="https://images.unsplash.com/photo-1605745341112-85968b19335b?auto=format&fit=crop&w=600&q=80"
+                alt="Breakbulk Cargo"
+                className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/40 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <h3 className="text-xl font-heading font-bold text-primary-foreground mb-2">Breakbulk Cargo</h3>
+                <p className="text-primary-foreground/80 text-sm">Non-containerized cargo handling for unique shipments</p>
+              </div>
+            </div>
+
+            {/* Heavy Lift Operations */}
+            <div className="group relative overflow-hidden rounded-2xl shadow-medium">
+              <img
+                src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=600&q=80"
+                alt="Heavy Lift Operations"
+                className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/40 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <h3 className="text-xl font-heading font-bold text-primary-foreground mb-2">Heavy Lift Operations</h3>
+                <p className="text-primary-foreground/80 text-sm">Specialized equipment for extremely heavy cargo movements</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Banner */}
       <section className="py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-ocean via-ocean to-navy" />
