@@ -81,15 +81,15 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="relative">
+            <div className="relative mt-8 md:mt-0">
               <img
                 src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80"
                 alt="Movetek logistics operations"
-                className="rounded-2xl shadow-strong"
+                className="rounded-2xl shadow-strong w-full"
               />
-              <div className="absolute -bottom-8 -left-8 bg-ocean text-primary-foreground p-6 rounded-2xl shadow-strong">
-                <div className="font-heading font-bold text-4xl">15+</div>
-                <div className="text-primary-foreground/80">Years of Excellence</div>
+              <div className="absolute -bottom-4 left-4 sm:-bottom-8 sm:-left-8 bg-ocean text-primary-foreground p-4 sm:p-6 rounded-2xl shadow-strong">
+                <div className="font-heading font-bold text-2xl sm:text-4xl">15+</div>
+                <div className="text-sm sm:text-base text-primary-foreground/80">Years of Excellence</div>
               </div>
             </div>
           </div>
@@ -182,24 +182,24 @@ const About = () => {
               {milestones.map((milestone, index) => (
                 <div
                   key={milestone.year}
-                  className={`flex items-center gap-8 ${
+                  className={`flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-8 ${
                     index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
                   }`}
                 >
-                  <div className={`flex-1 ${index % 2 === 0 ? 'md:text-right' : 'md:text-left'}`}>
-                    <div className="bg-navy-light p-6 rounded-2xl inline-block">
-                      <div className="font-heading font-bold text-ocean-light text-2xl mb-2">
+                  <div className={`flex-1 w-full ${index % 2 === 0 ? 'md:text-right' : 'md:text-left'}`}>
+                    <div className="bg-navy-light p-4 sm:p-6 rounded-2xl inline-block w-full md:w-auto">
+                      <div className="font-heading font-bold text-ocean-light text-xl sm:text-2xl mb-2">
                         {milestone.year}
                       </div>
-                      <h3 className="font-heading font-bold text-primary-foreground text-xl mb-2">
+                      <h3 className="font-heading font-bold text-primary-foreground text-lg sm:text-xl mb-2">
                         {milestone.title}
                       </h3>
-                      <p className="text-primary-foreground/70">
+                      <p className="text-primary-foreground/70 text-sm sm:text-base">
                         {milestone.description}
                       </p>
                     </div>
                   </div>
-                  <div className="hidden md:flex w-4 h-4 bg-ocean rounded-full relative z-10" />
+                  <div className="hidden md:flex w-4 h-4 bg-ocean rounded-full relative z-10 flex-shrink-0" />
                   <div className="flex-1 hidden md:block" />
                 </div>
               ))}

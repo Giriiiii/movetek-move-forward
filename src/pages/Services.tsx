@@ -119,7 +119,7 @@ const Services = () => {
             {services.map((service, index) => (
               <div
                 key={service.title}
-                className={`grid lg:grid-cols-2 gap-12 items-center ${
+                className={`grid lg:grid-cols-2 gap-8 lg:gap-12 items-center ${
                   index % 2 === 1 ? 'lg:flex-row-reverse' : ''
                 }`}
               >
@@ -128,12 +128,12 @@ const Services = () => {
                     <img
                       src={service.image}
                       alt={service.title}
-                      className="w-full h-[400px] object-cover group-hover:scale-105 transition-transform duration-500"
+                      className="w-full h-[250px] sm:h-[300px] md:h-[400px] object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-navy/60 to-transparent" />
-                    <div className="absolute bottom-6 left-6">
-                      <div className="w-14 h-14 bg-ocean rounded-xl flex items-center justify-center">
-                        <service.icon className="w-7 h-7 text-primary-foreground" />
+                    <div className="absolute bottom-4 left-4 sm:bottom-6 sm:left-6">
+                      <div className="w-12 h-12 sm:w-14 sm:h-14 bg-ocean rounded-xl flex items-center justify-center">
+                        <service.icon className="w-6 h-6 sm:w-7 sm:h-7 text-primary-foreground" />
                       </div>
                     </div>
                   </div>

@@ -74,9 +74,9 @@ const TestimonialsSection = () => {
 
         {/* Testimonial Carousel */}
         <div className="max-w-4xl mx-auto">
-          <div className="relative bg-card rounded-3xl shadow-strong p-8 md:p-12">
+          <div className="relative bg-card rounded-3xl shadow-strong p-6 sm:p-8 md:p-12">
             {/* Quote icon */}
-            <Quote className="w-16 h-16 text-ocean/20 absolute top-8 right-8" />
+            <Quote className="w-10 h-10 sm:w-16 sm:h-16 text-ocean/20 absolute top-4 right-4 sm:top-8 sm:right-8" />
 
             {/* Stars */}
             <div className="flex gap-1 mb-6">
@@ -86,17 +86,17 @@ const TestimonialsSection = () => {
             </div>
 
             {/* Content */}
-            <blockquote className="text-xl md:text-2xl text-foreground leading-relaxed mb-8 font-medium">
+            <blockquote className="text-base sm:text-xl md:text-2xl text-foreground leading-relaxed mb-6 sm:mb-8 font-medium">
               "{testimonials[current].content}"
             </blockquote>
 
             {/* Author */}
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 sm:gap-0">
               <div>
-                <div className="font-heading font-bold text-lg text-foreground">
+                <div className="font-heading font-bold text-base sm:text-lg text-foreground">
                   {testimonials[current].author}
                 </div>
-                <div className="text-muted-foreground">
+                <div className="text-sm sm:text-base text-muted-foreground">
                   {testimonials[current].role}, {testimonials[current].company}
                 </div>
               </div>
