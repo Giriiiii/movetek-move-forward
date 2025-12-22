@@ -11,18 +11,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div className="space-y-6">
-            <Link to="/" className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-ocean rounded-xl flex items-center justify-center">
-                <Anchor className="w-7 h-7 text-primary-foreground" />
-              </div>
-              <div>
-                <span className="font-heading font-bold text-2xl tracking-tight">
-                  MoveTek
-                </span>
-                <span className="block text-xs text-primary-foreground/60 font-medium tracking-wider uppercase">
-                  Global Logistics
-                </span>
-              </div>
+            <Link to="/" className="flex items-center">
+              <span className="font-heading font-bold text-2xl tracking-tight">
+                MOVETEK
+              </span>
             </Link>
             <p className="text-primary-foreground/80 leading-relaxed">
               Your trusted partner for reliable and tailored freight solutions. We deliver excellence in global logistics with over 15 years of experience.
