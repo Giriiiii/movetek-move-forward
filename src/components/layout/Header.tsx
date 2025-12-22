@@ -72,7 +72,7 @@ const Header = () => {
                   MOVETEK
                 </span>
                 <span className="block text-xs text-steel font-medium tracking-wider uppercase">
-                  
+                
                 </span>
               </div>
             </Link>
