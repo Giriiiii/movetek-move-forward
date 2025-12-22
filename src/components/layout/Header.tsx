@@ -65,7 +65,7 @@ const Header = () => {
             <Link to="/" className="flex items-center gap-2 sm:gap-3 group">
               <img 
                 src={logoImage} 
-                alt="Movetek Logo" 
+                alt="MoveTek Logo" 
                 className="h-10 sm:h-12 md:h-14 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
               />
               <span className="font-logo font-bold text-lg sm:text-xl md:text-2xl text-navy tracking-tight">

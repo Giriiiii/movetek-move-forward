@@ -17,7 +17,7 @@ const Footer = () => {
               </div>
               <div>
                 <span className="font-heading font-bold text-2xl tracking-tight">
-                  MOVETEK
+                  MoveTek
                 </span>
                 <span className="block text-xs text-primary-foreground/60 font-medium tracking-wider uppercase">
                   Global Logistics
@@ -97,7 +97,7 @@ SP City Free Zone, Sharjah, UAE
       <div className="border-t border-primary-foreground/10">
         <div className="container-custom py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/60">
-            <p>© {currentYear} Movetek. All rights reserved.</p>
+            <p>© {currentYear} MoveTek. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-primary-foreground transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-primary-foreground transition-colors">Terms of Service</a>
