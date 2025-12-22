@@ -22,24 +22,24 @@ const AboutPreview = () => {
               <img
                 src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80"
                 alt="Global logistics operations"
-                className="w-full h-[500px] object-cover"
+                className="w-full h-[350px] sm:h-[400px] md:h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/60 to-transparent" />
               
               {/* Stats overlay */}
-              <div className="absolute bottom-6 left-6 right-6 bg-primary-foreground/95 backdrop-blur-sm rounded-xl p-6">
-                <div className="grid grid-cols-3 gap-4 text-center">
+              <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-6 bg-primary-foreground/95 backdrop-blur-sm rounded-xl p-4 sm:p-6">
+                <div className="grid grid-cols-3 gap-2 sm:gap-4 text-center">
                   <div>
-                    <div className="font-heading font-bold text-2xl text-ocean">150+</div>
-                    <div className="text-sm text-muted-foreground">Countries</div>
+                    <div className="font-heading font-bold text-lg sm:text-2xl text-ocean">150+</div>
+                    <div className="text-xs sm:text-sm text-muted-foreground">Countries</div>
                   </div>
                   <div>
-                    <div className="font-heading font-bold text-2xl text-ocean">2M+</div>
-                    <div className="text-sm text-muted-foreground">Shipments</div>
+                    <div className="font-heading font-bold text-lg sm:text-2xl text-ocean">2M+</div>
+                    <div className="text-xs sm:text-sm text-muted-foreground">Shipments</div>
                   </div>
                   <div>
-                    <div className="font-heading font-bold text-2xl text-ocean">$500M</div>
-                    <div className="text-sm text-muted-foreground">Cargo Insured</div>
+                    <div className="font-heading font-bold text-lg sm:text-2xl text-ocean">$500M</div>
+                    <div className="text-xs sm:text-sm text-muted-foreground">Cargo Insured</div>
                   </div>
                 </div>
               </div>
