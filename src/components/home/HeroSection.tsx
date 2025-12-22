@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Play } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+    <section className="relative min-h-[85vh] flex items-center overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-navy">
         {/* Animated gradient overlay */}
@@ -25,7 +25,7 @@ const HeroSection = () => {
       </div>
 
       <div className="container-custom relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="max-w-4xl mx-auto text-center">
           {/* Content */}
           <div className="text-primary-foreground space-y-8">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-ocean/20 rounded-full border border-ocean/30 animate-fade-up">
@@ -35,43 +35,29 @@ const HeroSection = () => {
               </span>
             </div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold leading-tight animate-fade-up animation-delay-100">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold leading-tight animate-fade-up animation-delay-100">
               Your Trusted Partner for{' '}
               <span className="text-ocean-light">Reliable</span> and{' '}
               <span className="text-ocean-light">Tailored</span> Freight Solutions
             </h1>
             
-            <p className="text-lg md:text-xl text-primary-foreground/80 max-w-xl leading-relaxed animate-fade-up animation-delay-200">
-            Movetek Shipping is a leading shipping and forwarding company based in the United Arab Emirates (UAE), specializing in seamless logistics solutions for both regional and international markets. With a robust network of strategic partners, state-of-the-art technology, and a highly experienced team, we are dedicated to providing fast, reliable, and cost-effective shipping services for businesses of all sizes.
+            <p className="text-base sm:text-lg md:text-xl text-primary-foreground/80 max-w-3xl mx-auto leading-relaxed animate-fade-up animation-delay-200">
+              Movetek Shipping is a leading shipping and forwarding company based in the United Arab Emirates (UAE), specializing in seamless logistics solutions for both regional and international markets. With a robust network of strategic partners, state-of-the-art technology, and a highly experienced team, we are dedicated to providing fast, reliable, and cost-effective shipping services for businesses of all sizes.
             </p>
 
-            <div className="flex flex-wrap gap-4 animate-fade-up animation-delay-300">
-
+            <div className="flex flex-wrap justify-center gap-4 animate-fade-up animation-delay-300">
+              <Link to="/contact">
+                <Button variant="hero" size="xl" className="group">
+                  Get a Free Quote
+                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </Link>
+              <Link to="/services">
+                <Button variant="heroOutline" size="xl">
+                  Our Services
+                </Button>
+              </Link>
             </div>
-          </div>
-
-          {/* Stats */}
-          <div className="grid grid-cols-2 gap-6 animate-fade-up animation-delay-400">
-            {[
-              { value: '232+', label: 'Clients' },
-              { value: '521', label: 'Projects' },
-              { value: '1453', label: 'Shipments' },
-              { value: '32+', label: 'Team Members' },
-            ].map((stat, index) => (
-              <div
-                key={stat.label}
-                className="bg-primary-foreground/5 backdrop-blur-sm border border-primary-foreground/10 rounded-2xl p-6 text-center hover:bg-primary-foreground/10 transition-colors"
-                style={{ animationDelay: `${400 + index * 100}ms` }}
-              >
-                <div className="font-heading font-bold text-4xl md:text-5xl text-ocean-light mb-2">
-                  {stat.value}
-                </div>
-                <div className="w-12 h-1 bg-ocean mx-auto mb-3 rounded-full" />
-                <div className="text-primary-foreground/70 font-medium">
-                  {stat.label}
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </div>
