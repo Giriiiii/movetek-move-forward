@@ -68,9 +68,14 @@ const Header = () => {
                 alt="MoveTek Logo" 
                 className="h-10 sm:h-12 md:h-14 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
               />
-              <span className="font-logo font-bold text-lg sm:text-xl md:text-2xl text-blue-900 tracking-tight">
-  MoveTek Shipping & Logistics FZE
-</span>
+              <div className="flex flex-col leading-tight">
+                <span className="font-logo font-bold text-lg sm:text-xl md:text-2xl text-navy tracking-tight">
+                  MoveTek
+                </span>
+                <span className="font-logo font-semibold text-xs sm:text-sm text-red-600 tracking-tight hidden sm:block">
+                  SHIPPING & LOGISTICS FZE
+                </span>
+              </div>
 
             </Link>
 

@@ -19,6 +19,7 @@ import landTransportImage from '@/assets/land-transportation.png';
 import heavyCargoImage from '@/assets/heavy-cargo.png';
 import projectCargoImage from '@/assets/project-cargo.png';
 import doorToDoorImage from '@/assets/door-to-door.png';
+import heavyLiftImage from '@/assets/heavy-lift-operations.jpeg';
 
 const services = [
   {
@@ -260,7 +261,7 @@ const Services = () => {
             {/* Heavy Lift Operations */}
             <div className="group relative overflow-hidden rounded-2xl shadow-medium">
               <img
-                src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=600&q=80"
+                src={heavyLiftImage}
                 alt="Heavy Lift Operations"
                 className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
               />
