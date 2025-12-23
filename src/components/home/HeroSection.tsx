@@ -35,9 +35,9 @@ const HeroSection = () => {
               </span>
             </div>
             
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold leading-tight animate-fade-up animation-delay-100">
-            Powering Your Supply Chain {' '}
-              <span className="text-ocean-light">Supply</span> Chain{' '}
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-heading font-bold leading-tight animate-fade-up animation-delay-100">
+              Powering Your{' '}
+              <span className="text-ocean-light">Supply Chain</span>{' '}
               <span className="text-ocean-light">Forward</span> 
             </h1>
             
