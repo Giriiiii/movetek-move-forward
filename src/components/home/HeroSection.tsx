@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-[85vh] flex items-center overflow-hidden">
+    <section className="relative min-h-[90vh] md:min-h-[85vh] flex items-center overflow-hidden pb-32 sm:pb-24 md:pb-0">
       {/* Background */}
       <div className="absolute inset-0 bg-navy">
         {/* Animated gradient overlay */}
