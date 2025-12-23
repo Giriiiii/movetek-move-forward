@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="space-y-6">
             <Link to="/" className="flex items-center">
               <span className="font-heading font-bold text-2xl tracking-tight">
-                MOVETEK
+                MoveTek
               </span>
             </Link>
             <p className="text-primary-foreground/80 leading-relaxed">
