@@ -28,7 +28,18 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Content */}
           <div className="text-primary-foreground space-y-8">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-ocean/20 rounded-full border border-ocean/30 animate-fade-up">
+            {/* Animated Tagline */}
+            <div className="relative animate-fade-up">
+              <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-ocean/30 via-primary/20 to-ocean/30 rounded-full border border-ocean/40 backdrop-blur-sm shadow-lg shadow-ocean/20">
+                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
+                <span className="text-base sm:text-lg font-heading font-semibold text-white tracking-wide">
+                  Let's Move Together
+                </span>
+                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" style={{ animationDelay: '0.5s' }} />
+              </div>
+            </div>
+            
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-ocean/20 rounded-full border border-ocean/30 animate-fade-up animation-delay-100">
               <span className="w-2 h-2 bg-ocean rounded-full animate-pulse" />
               <span className="text-sm font-medium text-ocean-light">
                 Trusted by 500+ Companies Worldwide
