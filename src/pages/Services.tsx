@@ -20,6 +20,7 @@ import heavyCargoImage from '@/assets/heavy-cargo.png';
 import projectCargoImage from '@/assets/project-cargo.png';
 import doorToDoorImage from '@/assets/door-to-door.png';
 import heavyLiftImage from '@/assets/heavy-lift-operations.jpeg';
+import crossTradeImage from '@/assets/cross-trade-movements.png';
 
 const services = [
   {
@@ -48,7 +49,7 @@ const services = [
     title: 'Cross Trade Movements',
     description: 'Third-country logistics management, connecting shipments between two nations without direct origin involvement. Streamlined routing to reduce costs and delays.',
     features: ['Multi-country coordination', 'Cost optimization', 'Reduced transit times', 'Regulatory expertise'],
-    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80',
+    image: crossTradeImage,
   },
   {
     icon: FileCheck,
@@ -116,7 +117,7 @@ const Services = () => {
         <div className="container-custom">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <p className="text-lg text-muted-foreground">
-              At <strong className="text-foreground">MOVETEK</strong> we specialize in international freight forwarding, project cargo logistics, air chartering, and cross-trade movements. Our services are complemented by customs brokerage, door-to-door delivery, and multinational transport operations.
+              At <strong className="text-foreground">MoveTek</strong> we specialize in international freight forwarding, project cargo logistics, air chartering, and cross-trade movements. Our services are complemented by customs brokerage, door-to-door delivery, and multinational transport operations.
             </p>
           </div>
 
