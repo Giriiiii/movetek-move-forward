@@ -1,3 +1,5 @@
+import { Mail } from "lucide-react";
+
 const organizations = [
   {
     name: "Arab Line Trading & Contracting",
@@ -5,24 +7,16 @@ const organizations = [
     description: "We are a Doha-based trading, contracting, and manpower supply company providing reliable and cost-effective solutions across various industries in Qatar. Our services include the supply of skilled and unskilled manpower, general trading of construction and industrial materials, and execution of contracting works with a strong focus on quality, safety, and timely delivery. Backed by experienced management and a customer-centric approach, we support our clients in achieving operational efficiency while maintaining compliance with local regulations and industry standards."
   },
   {
-    name: "Arab Line Shipping & Logistics",
-    location: "Doha, Qatar",
-    description: "Arab Line Shipping & Logistics is a trusted logistics partner in Qatar, delivering end-to-end freight and supply chain solutions across air, sea, and land. With strong regional expertise and global network access, the company specializes in cargo handling, customs clearance, project logistics, and time-critical shipments, supporting businesses with reliable and compliant logistics operations across the Middle East."
+    name: "Arab Line Shipping & Logistics"
   },
   {
     name: "MoveTek Used Cars Trading",
-    location: "United Arab Emirates",
-    description: "MoveTek Used Cars Trading operates in the UAE market, focusing on the sourcing, trading, and export of quality used vehicles. Leveraging strong procurement networks and logistics expertise, the company provides seamless vehicle trading solutions, including inspection, documentation, and international shipping, serving clients across the Middle East, Africa, and Asia."
+    contact: "sales@movetekshipping.com"
   },
   {
     name: "MoveTek Shipping & Logistics Pvt. Ltd.",
     location: "India",
     description: "MoveTek Shipping & Logistics Pvt. Ltd. is the group's India-based logistics arm, offering comprehensive freight forwarding and supply chain services. The company specializes in domestic and international transportation, project cargo, heavy haulage, and multimodal logistics, delivering customized solutions for industries such as manufacturing, infrastructure, and energy across India and global trade lanes."
-  },
-  {
-    name: "MoveTek Shipping & Logistics FZE",
-    location: "United Arab Emirates",
-    description: "MoveTek Shipping & Logistics FZE serves as the group's UAE free-zone entity, acting as a strategic hub for international logistics operations. The company provides freight forwarding, warehousing, re-export, and cross-border logistics solutions, enabling efficient movement of goods across the GCC, Asia, Europe, and Africa with a strong focus on flexibility, compliance, and speed."
   },
   {
     name: "AVERE Builders and Engineering Contractors",
@@ -50,7 +44,7 @@ const AuthorizedOrganization = () => {
       <div className="container-custom">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-            Our Authorized Organizations
+            MoveTek Group of Companies
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto"></div>
         </div>
@@ -73,6 +67,14 @@ const AuthorizedOrganization = () => {
                 <p className="text-xs text-muted-foreground mb-3">
                   📍 {org.address}
                 </p>
+              )}
+              {org.contact && (
+                <div className="flex items-center gap-2 text-primary text-sm mb-2">
+                  <Mail className="h-4 w-4" />
+                  <a href={`mailto:${org.contact}`} className="hover:underline">
+                    {org.contact}
+                  </a>
+                </div>
               )}
               {org.description && (
                 <p className="text-sm text-muted-foreground leading-relaxed">
