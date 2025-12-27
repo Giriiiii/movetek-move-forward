@@ -6,19 +6,23 @@ const organizations = [
   },
   {
     name: "Arab Line Shipping & Logistics",
-    location: "Doha, Qatar"
+    location: "Doha, Qatar",
+    description: "Arab Line Shipping & Logistics is a trusted logistics partner in Qatar, delivering end-to-end freight and supply chain solutions across air, sea, and land. With strong regional expertise and global network access, the company specializes in cargo handling, customs clearance, project logistics, and time-critical shipments, supporting businesses with reliable and compliant logistics operations across the Middle East."
   },
   {
     name: "MoveTek Used Cars Trading",
-    location: "UAE"
+    location: "United Arab Emirates",
+    description: "MoveTek Used Cars Trading operates in the UAE market, focusing on the sourcing, trading, and export of quality used vehicles. Leveraging strong procurement networks and logistics expertise, the company provides seamless vehicle trading solutions, including inspection, documentation, and international shipping, serving clients across the Middle East, Africa, and Asia."
   },
   {
-    name: "MoveTek Shipping & Logistics Pvt. Ltd",
-    location: "India"
+    name: "MoveTek Shipping & Logistics Pvt. Ltd.",
+    location: "India",
+    description: "MoveTek Shipping & Logistics Pvt. Ltd. is the group's India-based logistics arm, offering comprehensive freight forwarding and supply chain services. The company specializes in domestic and international transportation, project cargo, heavy haulage, and multimodal logistics, delivering customized solutions for industries such as manufacturing, infrastructure, and energy across India and global trade lanes."
   },
   {
     name: "MoveTek Shipping & Logistics FZE",
-    location: "UAE"
+    location: "United Arab Emirates",
+    description: "MoveTek Shipping & Logistics FZE serves as the group's UAE free-zone entity, acting as a strategic hub for international logistics operations. The company provides freight forwarding, warehousing, re-export, and cross-border logistics solutions, enabling efficient movement of goods across the GCC, Asia, Europe, and Africa with a strong focus on flexibility, compliance, and speed."
   },
   {
     name: "AVERE Builders and Engineering Contractors",
