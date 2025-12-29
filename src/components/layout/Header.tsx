@@ -68,15 +68,14 @@ const Header = () => {
                 alt="MoveTek Logo" 
                 className="h-10 sm:h-12 md:h-14 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
               />
-              <div className="flex flex-col leading-tight">
+              <div className="flex items-baseline gap-1 sm:gap-2">
                 <span className="font-logo font-bold text-lg sm:text-xl md:text-2xl text-navy tracking-tight">
                   MoveTek
                 </span>
-                <span className="font-logo font-semibold text-xs sm:text-sm text-red-600 tracking-tight hidden sm:block">
+                <span className="font-logo font-semibold text-[10px] sm:text-xs md:text-sm text-red-600 tracking-tight whitespace-nowrap">
                   SHIPPING & LOGISTICS FZE
                 </span>
               </div>
-
             </Link>
 
             {/* Desktop Navigation */}

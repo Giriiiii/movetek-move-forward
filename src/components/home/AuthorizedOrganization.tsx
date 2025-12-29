@@ -7,11 +7,13 @@ const organizations = [
     description: "We are a Doha-based trading, contracting, and manpower supply company providing reliable and cost-effective solutions across various industries in Qatar. Our services include the supply of skilled and unskilled manpower, general trading of construction and industrial materials, and execution of contracting works with a strong focus on quality, safety, and timely delivery. Backed by experienced management and a customer-centric approach, we support our clients in achieving operational efficiency while maintaining compliance with local regulations and industry standards."
   },
   {
-    name: "Arab Line Shipping & Logistics"
+    name: "Arab Line Shipping & Logistics",
+    description: "We are a freight forwarding company providing reliable and cost-effective logistics solutions, including air, sea, and land transportation. Our services cover cargo handling, customs clearance, warehousing, and door-to-door deliveries. With a strong network of partners, we ensure safe, timely, and efficient movement of goods to meet our clients' local and international shipping requirements."
   },
   {
     name: "MoveTek Used Cars Trading",
-    contact: "sales@movetekshipping.com"
+    contact: "sales@movetekshipping.com",
+    description: "We are a used car trading company engaged in the buying, selling, and sourcing of quality pre-owned vehicles. Our focus is on offering reliable cars at competitive prices, ensuring transparency, proper documentation, and customer satisfaction. We cater to both individual and corporate clients, providing a smooth and trustworthy vehicle trading experience."
   },
   {
     name: "MoveTek Shipping & Logistics Pvt. Ltd.",
@@ -40,7 +42,7 @@ const organizations = [
 
 const AuthorizedOrganization = () => {
   return (
-    <section className="py-20 bg-muted/30">
+    <section className="py-12 bg-muted/30">
       <div className="container-custom">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">

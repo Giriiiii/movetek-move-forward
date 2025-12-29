@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
     <section className="section-padding bg-background">
       <div className="container-custom">
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-10">
           <span className="inline-block px-4 py-1.5 bg-ocean/10 text-ocean text-sm font-semibold rounded-full mb-4">
             Why Choose Us
           </span>
