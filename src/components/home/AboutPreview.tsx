@@ -15,7 +15,7 @@ const AboutPreview = () => {
   return (
     <section className="section-padding bg-sky">
       <div className="container-custom">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 items-center">
           {/* Image Side */}
           <div className="relative animate-slide-in-left">
             <div className="relative rounded-2xl overflow-hidden shadow-strong">
