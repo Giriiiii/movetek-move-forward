@@ -18,7 +18,7 @@ import noseLoadingImage from '@/assets/nose-loading-aircraft.jpeg';
 import landTransportImage from '@/assets/land-transportation.png';
 import heavyCargoImage from '@/assets/heavy-cargo.png';
 import projectCargoImage from '@/assets/project-cargo.png';
-import doorToDoorImage from '@/assets/door-to-door.png';
+import doorToDoorImage from '@/assets/door-to-door-new.png';
 import heavyLiftImage from '@/assets/heavy-lift-operations.jpeg';
 import crossTradeImage from '@/assets/cross-trade-movements.png';
 

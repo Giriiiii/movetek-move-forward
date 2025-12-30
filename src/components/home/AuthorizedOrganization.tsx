@@ -4,10 +4,12 @@ const organizations = [
   {
     name: "Arab Line Trading & Contracting",
     location: "Doha, Qatar",
+    contact: "sales@movetekshipping.com",
     description: "We are a Doha-based trading, contracting, and manpower supply company providing reliable and cost-effective solutions across various industries in Qatar. Our services include the supply of skilled and unskilled manpower, general trading of construction and industrial materials, and execution of contracting works with a strong focus on quality, safety, and timely delivery. Backed by experienced management and a customer-centric approach, we support our clients in achieving operational efficiency while maintaining compliance with local regulations and industry standards."
   },
   {
     name: "Arab Line Shipping & Logistics",
+    contact: "sales@movetekshipping.com",
     description: "We are a freight forwarding company providing reliable and cost-effective logistics solutions, including air, sea, and land transportation. Our services cover cargo handling, customs clearance, warehousing, and door-to-door deliveries. With a strong network of partners, we ensure safe, timely, and efficient movement of goods to meet our clients' local and international shipping requirements."
   },
   {
@@ -18,24 +20,29 @@ const organizations = [
   {
     name: "MoveTek Shipping & Logistics Pvt. Ltd.",
     location: "India",
+    contact: "sales@movetekshipping.com",
     description: "MoveTek Shipping & Logistics Pvt. Ltd. is the group's India-based logistics arm, offering comprehensive freight forwarding and supply chain services. The company specializes in domestic and international transportation, project cargo, heavy haulage, and multimodal logistics, delivering customized solutions for industries such as manufacturing, infrastructure, and energy across India and global trade lanes."
   },
   {
     name: "AVERE Builders and Engineering Contractors",
+    contact: "sales@movetekshipping.com",
     description: "We are a trusted construction company delivering high-quality residential, commercial, and infrastructure projects. With a strong focus on safety, precision, and timely delivery, we combine skilled craftsmanship with modern construction techniques to build structures that last."
   },
   {
     name: "Craftwise Construction Solutions",
     address: "MRA 103, TKD Road, Muttada P.O., TVM 695025",
+    contact: "sales@movetekshipping.com",
     description: "We are a creative interior design company specializing in residential and commercial spaces. Our team combines functionality, aesthetics, and innovation to design interiors that reflect your style while enhancing comfort and efficiency."
   },
   {
     name: "Matbakh Al Laila Multi Cuisine Restaurant",
+    contact: "sales@movetekshipping.com",
     description: "A destination for food lovers, our multicuisine restaurant brings together a rich variety of flavors from around the world. From traditional favorites to modern specialties, every dish is prepared with quality ingredients and authentic taste."
   },
   {
     name: "Al Laila Caterings",
     address: "Plamoodu, Pattom, TVM 695004",
+    contact: "sales@movetekshipping.com",
     description: "We provide high-quality catering services for weddings, corporate events, parties, and special occasions. Our team delivers delicious food, timely service, and flawless presentation to make every event memorable."
   }
 ];
