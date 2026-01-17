@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, ArrowRight } from 'lucide-react';
+import warehouseImage from '@/assets/movetek-warehouse.png';
 
 const features = [
   'Reliable International Freight Forwarding',
@@ -20,8 +21,8 @@ const AboutPreview = () => {
           <div className="relative animate-slide-in-left">
             <div className="relative rounded-2xl overflow-hidden shadow-strong">
               <img
-                src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80"
-                alt="Global logistics operations"
+                src={warehouseImage}
+                alt="MoveTek Shipping & Logistics FZE Warehouse"
                 className="w-full h-[350px] sm:h-[400px] md:h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/60 to-transparent" />
