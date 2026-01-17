@@ -68,6 +68,7 @@ export default {
         heading: ["Montserrat", "sans-serif"],
         body: ["Open Sans", "sans-serif"],
         logo: ["Bernard MT", "Libre Baskerville", "Georgia", "serif"],
+        cursive: ["Pacifico", "cursive"],
       },
       borderRadius: {
         lg: "var(--radius)",

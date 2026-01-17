@@ -62,18 +62,23 @@ const Header = () => {
         <div className="container-custom">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-2 sm:gap-3 group">
+            <Link to="/" className="flex items-center gap-3 sm:gap-4 group">
               <img 
                 src={logoImage} 
                 alt="MoveTek Logo" 
-                className="h-10 sm:h-12 md:h-14 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+                className="h-14 sm:h-16 md:h-20 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
               />
-              <div className="flex items-baseline gap-1 sm:gap-2">
-                <span className="font-logo font-bold text-lg sm:text-xl md:text-2xl text-navy tracking-tight">
-                  MoveTek
-                </span>
-                <span className="font-logo font-semibold text-[10px] sm:text-xs md:text-sm text-red-600 tracking-tight whitespace-nowrap">
-                  SHIPPING & LOGISTICS FZE
+              <div className="flex flex-col">
+                <div className="flex items-baseline gap-1 sm:gap-2">
+                  <span className="font-logo font-bold text-xl sm:text-2xl md:text-3xl text-navy tracking-tight">
+                    MoveTek
+                  </span>
+                  <span className="font-logo font-semibold text-xs sm:text-sm md:text-base text-red-600 tracking-tight whitespace-nowrap">
+                    SHIPPING & LOGISTICS FZE
+                  </span>
+                </div>
+                <span className="font-cursive text-sm sm:text-base md:text-lg text-ocean italic tracking-wide">
+                  Let's move together
                 </span>
               </div>
             </Link>
