@@ -62,25 +62,23 @@ const Header = () => {
         <div className="container-custom">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-3 sm:gap-4 group">
+            <Link to="/" className="flex items-center gap-2 sm:gap-3 md:gap-4 group">
               <img 
                 src={logoImage} 
                 alt="MoveTek Logo" 
-                className="h-14 sm:h-16 md:h-20 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+                className="h-10 sm:h-14 md:h-20 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
               />
-              <div className="flex flex-col">
-                <div className="flex items-baseline gap-1 sm:gap-2">
-                  <span className="font-logo font-bold text-xl sm:text-2xl md:text-3xl text-navy tracking-tight">
-                    MoveTek
+              <div className="flex flex-col sm:flex-row sm:items-baseline gap-0 sm:gap-2">
+                <span className="font-logo font-bold text-lg sm:text-2xl md:text-3xl text-navy tracking-tight">
+                  MoveTek
+                </span>
+                <div className="flex flex-col items-start sm:items-end">
+                  <span className="font-logo font-semibold text-[8px] sm:text-sm md:text-base text-red-600 tracking-tight whitespace-nowrap">
+                    SHIPPING & LOGISTICS FZE
                   </span>
-                  <div className="flex flex-col">
-                    <span className="font-logo font-semibold text-xs sm:text-sm md:text-base text-red-600 tracking-tight whitespace-nowrap">
-                      SHIPPING & LOGISTICS FZE
-                    </span>
-                    <span className="font-cursive text-xs sm:text-sm md:text-base text-navy tracking-wide">
-                      Let's move together
-                    </span>
-                  </div>
+                  <span className="hidden sm:block font-cursive text-sm md:text-base text-navy tracking-wide">
+                    Let's move together
+                  </span>
                 </div>
               </div>
             </Link>
