@@ -73,13 +73,15 @@ const Header = () => {
                   <span className="font-logo font-bold text-xl sm:text-2xl md:text-3xl text-navy tracking-tight">
                     MoveTek
                   </span>
-                  <span className="font-logo font-semibold text-xs sm:text-sm md:text-base text-red-600 tracking-tight whitespace-nowrap">
-                    SHIPPING & LOGISTICS FZE
-                  </span>
+                  <div className="flex flex-col">
+                    <span className="font-logo font-semibold text-xs sm:text-sm md:text-base text-red-600 tracking-tight whitespace-nowrap">
+                      SHIPPING & LOGISTICS FZE
+                    </span>
+                    <span className="font-cursive text-xs sm:text-sm md:text-base text-navy tracking-wide">
+                      Let's move together
+                    </span>
+                  </div>
                 </div>
-                <span className="font-cursive text-sm sm:text-base md:text-lg text-ocean italic tracking-wide">
-                  Let's move together
-                </span>
               </div>
             </Link>
 
