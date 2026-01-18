@@ -21,8 +21,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Phone',
-    content: '+971 52 3258 175',
-    link: 'tel:+971523258175',
+    content: '+971 52 3258 176',
+    link: 'tel:+971523258176',
   },
   {
     icon: Mail,
@@ -170,7 +170,7 @@ const Contact = () => {
 
               {/* WhatsApp Button */}
               <a
-                href="https://api.whatsapp.com/send?phone=971523258175"
+                href="https://api.whatsapp.com/send?phone=971523258176"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-8 flex items-center justify-center gap-3 bg-green-500 text-primary-foreground py-4 px-6 rounded-xl font-semibold hover:bg-green-600 transition-colors"
@@ -238,7 +238,7 @@ const Contact = () => {
                         type="tel"
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="+971 52 3258 175"
+                        placeholder="+971 52 3258 176"
                         className={errors.phone ? 'border-destructive' : ''}
                       />
                       {errors.phone && (

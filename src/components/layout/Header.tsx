@@ -35,9 +35,9 @@ const Header = () => {
       <div className="hidden lg:block bg-navy text-primary-foreground py-2">
         <div className="container-custom flex justify-between items-center text-sm">
           <div className="flex items-center gap-6">
-            <a href="tel:+971523258175" className="flex items-center gap-2 hover:text-ocean-light transition-colors">
+            <a href="tel:+971523258176" className="flex items-center gap-2 hover:text-ocean-light transition-colors">
               <Phone className="w-4 h-4" />
-              +971 52 3258 175
+              +971 52 3258 176
             </a>
             <a href="mailto:sales@movetekshipping.com" className="flex items-center gap-2 hover:text-ocean-light transition-colors">
               <Mail className="w-4 h-4" />
