@@ -69,9 +69,9 @@ SP City Free Zone, Sharjah, UAE
                 </span>
               </li>
               <li>
-                <a href="tel:+971523258175" className="flex items-center gap-3 text-primary-foreground/80 hover:text-ocean-light transition-colors">
+                <a href="tel:+971523258176" className="flex items-center gap-3 text-primary-foreground/80 hover:text-ocean-light transition-colors">
                   <Phone className="w-5 h-5 text-ocean" />
-                  +971 52 3258 175
+                  +971 52 3258 176
                 </a>
               </li>
               <li>
